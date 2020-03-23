@@ -26,7 +26,6 @@ class Customer
   
   def waiters
     self.meals
-    end
   end
 end
 
