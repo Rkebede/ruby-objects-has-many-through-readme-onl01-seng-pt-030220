@@ -26,7 +26,6 @@ class Customer
   
   def waiters
     meals.select do |waiter.name|
-    end
   end
 end
 
