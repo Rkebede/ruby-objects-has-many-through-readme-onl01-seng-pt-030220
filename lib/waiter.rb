@@ -18,5 +18,6 @@ attr_accessor :name, :yrs_experience
     Meal.all.select do |meal| 
       customer.self == self
     end
+    self
   end 
 end
