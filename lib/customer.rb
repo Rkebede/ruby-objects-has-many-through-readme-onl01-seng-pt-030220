@@ -1,4 +1,3 @@
-require 'pry'
 class Customer
   
   attr_accessor :name, :age
@@ -30,9 +29,5 @@ class Customer
       meals
     end
   end
- 
 end
-
-
- bingding pry
 
