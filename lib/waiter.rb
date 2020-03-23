@@ -14,9 +14,5 @@ attr_accessor :name, :yrs_experience
     @@all
   end 
 
-  def waiters
-    Meal.all.select do |meal| 
-      customer.self.all
-    end
-  end 
+   
 end
