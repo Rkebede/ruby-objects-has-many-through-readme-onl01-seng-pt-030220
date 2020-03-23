@@ -26,7 +26,7 @@ class Customer
   
   def waiters
     meals.each do |waiter|
-      waiter.name
+      waiter
     end
   end
 end
