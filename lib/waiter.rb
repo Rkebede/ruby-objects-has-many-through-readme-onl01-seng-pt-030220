@@ -15,7 +15,6 @@ attr_accessor :name, :yrs_experience
   end 
 
   def new_meal(customer, total, tip=0)
-    Meal.all
   end 
     
    
