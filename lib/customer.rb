@@ -25,7 +25,7 @@ class Customer
   end 
   
   def waiters
-    meals.map do |waiter[0]|
+    meals.map do |waiter.name|
       waiter
     end
   end
