@@ -24,4 +24,7 @@ attr_accessor :name, :yrs_experience
     end
   end 
    
+  def best_tipper
+    Meal.all
+  end 
 end
