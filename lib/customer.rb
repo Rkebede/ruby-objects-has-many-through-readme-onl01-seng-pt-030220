@@ -25,8 +25,7 @@ class Customer
   end 
   
   def waiters
-    meals
-    Waiter.all.select do |waiter|
+    meals.Waiter.all.select do |waiter|
       waiter.name
     end
   end
