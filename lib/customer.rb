@@ -30,9 +30,9 @@ class Customer
       meals
     end
   end
-  bingding pry
+ 
 end
 
 
-
+ bingding pry
 
