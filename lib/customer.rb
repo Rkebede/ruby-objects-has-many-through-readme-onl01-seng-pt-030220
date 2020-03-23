@@ -28,7 +28,7 @@ class Customer
     meals
     # Waiter.all.select do |waiter|
     #   waiter
-    end
+    # end
   end
 end
 
