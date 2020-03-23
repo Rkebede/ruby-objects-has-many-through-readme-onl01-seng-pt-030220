@@ -1,3 +1,4 @@
+require 'pry'
 class Customer
   
   attr_accessor :name, :age
@@ -26,9 +27,10 @@ class Customer
   
   def waiters
     Waiter.all.select do |waiter|
-      meals.waiter
+      meals
     end
   end
+  bingding pry
 end
 
 
