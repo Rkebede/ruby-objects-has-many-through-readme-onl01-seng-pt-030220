@@ -14,7 +14,7 @@ attr_accessor :name, :yrs_experience
     @@all
   end 
 
-  def new_meal(name, age, meal)
+  def new_meal(self, age, meal)
     Meal.all
   end 
     
