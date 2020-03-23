@@ -27,7 +27,7 @@ class Customer
   def waiters
     meals
     Waiter.all.select do |waiter|
-      waiter.name == meals
+      waiter.name
     end
   end
 end
