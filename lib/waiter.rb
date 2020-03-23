@@ -15,7 +15,7 @@ attr_accessor :name, :yrs_experience
   end 
 
   def waiters
-    Meals.all.select do |meal| 
+    Customer.all.select do |meal| 
       meal.waiter == self
     end
   end 
