@@ -28,6 +28,7 @@ class Customer
     Meal.all.select do |meal|
       meal.waiter.select do |waiter|
         waiter.customer
+      end 
     end 
   end
 end
